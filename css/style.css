@@ -4,7 +4,7 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  width: 1500px;
+  width: 1200px;
 }
 
 header{
@@ -33,4 +33,29 @@ header{
 
 #booleaner{
   font-size: 30px;
+}
+
+main h1{
+  margin-top: 15px;
+}
+
+.article{
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.article p{
+  font-size: 14px;
+  color: grey;
+}
+
+#firma{
+  color: rgb(25, 105, 155);
+}
+
+#time{
+  position: relative;
+  bottom: 5px;
+  color: grey;
+  font-size: 10px;
 }
