@@ -85,3 +85,24 @@ section{
   margin-top: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
+
+.highlighted{
+  background-color: yellow;
+}
+
+table{
+  text-align: left;
+}
+
+thead{
+  color: white;
+  background-color: #2f6aeb;
+}
+
+td{
+  padding: 15px 0;
+}
+
+.firstcolor{
+  background-color: rgb(70, 196, 196);
+}
