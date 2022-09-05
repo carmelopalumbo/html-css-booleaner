@@ -6,38 +6,31 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container{
   width: 1200px;
 }
 
-header{
+#layer{
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  background-color: cornflowerblue;
+  background-image: url("../img/pattern.png");
+  background-size: 400px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+
+header{
+  background-color: #2f6aeb;
 }
 
 
 .title{
-  background-image: url("../img/pattern.png");
-  background-size: 400px;
-  padding-right: 25px;
-  padding-top: 25px;
-  padding-left: 5px;
-  padding-bottom: 5px;
-}
-
-#the, #booleaner{
-  text-shadow: 2px 2px 2px black;
-}
-
-#the{
-  position: relative;
-  top: 8px;
-  font-size: 13px;
-  margin-left: 15px;
-}
-
-#booleaner{
-  font-size: 35px;
+  margin: 0;
+  width: 20%;
+  /* background-color: cornflowerblue; */
 }
 
 main h1{
@@ -59,22 +52,6 @@ main h1{
   bottom: 5px;
   color: grey;
   font-size: 10px;
-}
-
-#pic1{
-  background-image: url(../img/tim-1.jpg);
-}
-
-#pic2{
-  background-image: url(../img/tim-2.jpg);
-}
-
-#pic1, #pic2{
-  display: inline-block;
-  width: 500px;
-  height: 350px;;
-  background-size: cover;
-  background-position: center;
 }
 
 .credits{
