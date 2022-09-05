@@ -1,0 +1,36 @@
+/* css */
+
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 1500px;
+}
+
+header{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.title{
+  background-image: url("../img/pattern.png");
+  background-size: 400px;
+  padding: 25px;
+  padding-left: 5px;
+}
+
+#the, #booleaner{
+  text-shadow: 2px 2px 2px black;
+}
+
+#the{
+  position: relative;
+  top: 8px;
+  font-size: 13px;
+  margin-left: 15px;
+}
+
+#booleaner{
+  font-size: 30px;
+}
