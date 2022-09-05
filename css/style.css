@@ -1,3 +1,5 @@
+
+
 /* css */
 
 *{
@@ -16,8 +18,10 @@ header{
 .title{
   background-image: url("../img/pattern.png");
   background-size: 400px;
-  padding: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
   padding-left: 5px;
+  padding-bottom: 5px;
 }
 
 #the, #booleaner{
