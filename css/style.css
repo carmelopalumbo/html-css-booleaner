@@ -81,6 +81,7 @@ main h1{
   font-size: 12px;
 }
 
+
 section{
   margin-top: 20px;
   font-family: 'Times New Roman', Times, serif;
@@ -106,4 +107,38 @@ td{
 
 .firstcolor{
   background-color: rgb(70, 196, 196);
+}
+
+#couldbe{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: darkgray;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.img{
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin: 0;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.pc, .graph{
+  margin-bottom: 10px;
+}
+
+.pc{
+  background-image: url(../img/monitor.jpg);
+
+}
+
+.graph{
+  background-image: url(../img/graph.jpg);
 }
