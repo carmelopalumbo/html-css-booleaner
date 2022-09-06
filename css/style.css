@@ -69,6 +69,7 @@ section{
 }
 
 table{
+  border-collapse: collapse;
   text-align: left;
   margin-bottom: 20px;
 }
